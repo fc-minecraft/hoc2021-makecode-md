@@ -9,11 +9,19 @@
     "files": [
         "README.md",
         "main.blocks",
-        "main.ts"
+        "main.ts",
+        "jazz.md",
+        "giza.md",
+        "moon.md",
+        "great_wall.md",
+        "mona_lisa.md",
+        "first_flights.md",
+        "computer_scientist.md",
+        "human_best_friend.md",
+        "paleontology.md",
+        "elements_discovery.md"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
+    "testFiles": [],
     "public": true,
     "targetVersions": {
         "target": "1.6.11",
@@ -22,5 +30,5 @@
     "supportedTargets": [
         "minecraft"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }

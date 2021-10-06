@@ -5,7 +5,7 @@
 # Pyramids of Giza
 
 ## Step 1
-The architect of the pyramids is trying to build a structure that will last the test of time. Teach them how to make a triangle by building one on the platform.
+The architect of the pyramids is trying to build a structure that will last the test of time. Teach them how to make a pyramid by building a 3 layer triangle on the platform.
 
 
 #### ~ tutorialhint 

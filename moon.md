@@ -9,7 +9,7 @@ The Apollo 11 crew is stuck orbiting the moon without the information they need 
 
 
 #### ~ tutorialhint 
-Use ``||agent.move||`` to dock the Agent with the moon module by moving it forward 25, right 17, and down 3.
+Use ``||agent.agent move||`` to dock the Agent with the moon module by moving it forward 25, right 17, and down 3.
 
 ```ghost
     agent.move(FORWARD, 25)

@@ -9,7 +9,7 @@ The architect of the pyramids is trying to build a structure that will last the 
 
 
 #### ~ tutorialhint 
-Give the Agent `Smooth Stone` by using ``||agent.setItem||``, then use ``||agent.move||`` to move the Agent into position and ``||agent.place||`` to place the `Smooth Stone`.
+Give the Agent `Smooth Stone` by using ``||agent.agent set item||``, then use ``||agent.agent move||`` to move the Agent into position and ``||agent.agent place||`` to place the `Smooth Stone`.
 
 ```ghost
     agent.setItem(SMOOTH_SANDSTONE, 64, 1)

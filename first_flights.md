@@ -9,7 +9,7 @@ The first flight is scheduled to take off any minute now, but someone came and p
 
 
 #### ~ tutorialhint 
-Give the Agent `Dirt` by using ``||agent.setItem||``, then use ``||agent.move||`` to move the Agent and ``||agent.place||`` to place the `Dirt`.
+Give the Agent `Dirt` by using ``||agent.agent set item||``, then use ``||agent.agent move||`` to move the Agent and ``||agent.agent place||`` to place the `Dirt`.
 
 ```ghost
     agent.setItem(DIRT, 64, 1)

@@ -9,7 +9,7 @@ The Mona Lisa's famous smile is now a frown. Someone has trampled her garden. Us
 
 
 #### ~ tutorialhint 
-Give the Agent `White Glazed Terracotta` by using ``||agent.setItem||``, then use the ``||agent.move||`` to move the Agent into position and ``||agent.place||`` to place the `White Glazed Terracotta`.
+Give the Agent `White Glazed Terracotta` by using ``||agent.agent set item||``, then use the ``||agent.agent move||`` to move the Agent into position and ``||agent.agent place||`` to place the `White Glazed Terracotta`.
 
 ```ghost
     agent.setItem(WHITE_GLAZED_TERRACOTTA, 64, 1)

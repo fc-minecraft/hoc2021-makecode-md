@@ -9,7 +9,7 @@ Punch cards were one of the first ways people "programmed" computers. The comput
 
 
 #### ~ tutorialhint 
-Use ``||agent.move||`` to move the Agent above the brown blocks, and then use ``||agent.destroy||`` to break the block below it.
+Use ``||agent.agent move||`` to move the Agent above the brown blocks, and then use ``||agent.agent destroy||`` to break the block below it.
 
 ```ghost
     agent.move(FORWARD, 1)

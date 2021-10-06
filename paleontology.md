@@ -9,7 +9,7 @@ Some of the fossils were replaced with sand! Break the sand blocks and replace t
 
 
 #### ~ tutorialhint 
-Give the Agent at least 4 `Bone Block` by using ``||agent.setItem||``, then use ``||agent.move||`` to move the Agent into position, ``||agent.destroy||`` to break the sand and ``||agent.place||`` to place the `Bone Block`.
+Give the Agent at least 4 `Bone Block` by using ``||agent.agent set item||``, then use ``||agent.agent move||`` to move the Agent into position, ``||agent.agent destroy||`` to break the sand and ``||agent.agent place||`` to place the `Bone Block`.
 
 ```ghost
     agent.setItem(BONE_BLOCK, 64, 1)

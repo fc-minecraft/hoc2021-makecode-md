@@ -9,7 +9,7 @@ When the scientist left the room, someone hid some of her research inside the bo
 
 
 #### ~ tutorialhint 
-Use ``||agent.move||`` to move the Agent towards the bookcases with the green glow and then use ``||agent.destroy||`` to break them.
+Use ``||agent.agent move||`` to move the Agent towards the bookcases with the green glow and then use ``||agent.agent destroy||`` to break them.
 
 ```ghost
     agent.move(UP, 2)

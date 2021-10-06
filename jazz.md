@@ -9,7 +9,7 @@ The Jazz musician lost his trumpet and has been playing the kazoo. Use the Agent
 
 
 #### ~ tutorialhint 
-Use ``||agent.move||`` to get through the maze and ``||agent.collectAll||`` to pick up the trumpet.
+Use ``||agent.agent move||`` to get through the maze and ``||agent.agent collect all||`` to pick up the trumpet.
 
 ```ghost
     agent.move(FORWARD, 3)

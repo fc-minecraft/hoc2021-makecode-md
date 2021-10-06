@@ -5,7 +5,7 @@
 # Paleontology Puzzle
 
 ## Step 1
-Some of the fossils were replaced with sand! Break the sand blocks and replace them with bone blocks before the paleontologists notice.
+Some of the fossils were replaced with sand! Break the sand blocks and replace them with bone blocks before the paleontologist's notice.
 
 
 #### ~ tutorialhint 

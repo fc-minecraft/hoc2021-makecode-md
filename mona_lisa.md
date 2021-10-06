@@ -2,14 +2,14 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# The Great Wall of China
+# The Mona Lisa
 
 ## Step 1
 The Mona Lisa's famous smile is now a frown. Someone has trampled her garden. Use the Agent to place White Glazed Terracotta in a 6x6x6x6 square to begin construction of a beautiful new fountain.
 
 
 #### ~ tutorialhint 
-Give the Agent `White Glazed Terracotta` by using ``||agent.agent set item||``, then use the ``||agent.agent move||`` to move the Agent into position and ``||agent.agent place||`` to place the `White Glazed Terracotta`.
+Give the Agent `White Glazed Terracotta` by using ``||agent.agent set item||``, then use ``||agent.agent move||`` to move the Agent into position and ``||agent.agent place||`` to place the `White Glazed Terracotta`.
 
 ```ghost
     agent.setItem(WHITE_GLAZED_TERRACOTTA, 64, 1)

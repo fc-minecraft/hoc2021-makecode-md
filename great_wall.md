@@ -12,16 +12,9 @@ Pandas keep eating the bamboo scaffolding, stopping the workers from getting hig
 Give the Agent `Bamboo` by using ``||agent.agent set item||``, then use the ``||agent.agent move||`` to move the Agent into position and ``||agent.agent place||`` to place the `Bamboo`.
 
 ```ghost
-    agent.setItem(BAMBOO, 64, 1)
-    agent.place(DOWN)
-    agent.move(FORWARD, 1)
-    agent.place(DOWN)
-    agent.move(FORWARD, 1)
-    agent.place(DOWN)
-    agent.move(FORWARD, 1)
-    agent.place(DOWN)
-    agent.move(FORWARD, 1)
-    agent.place(DOWN)
+    agent.setItem(BAMBOO, 64, 0)
+    agent.place(FORWARD)
+    agent.move(FORWARD, 0)
     for (let index = 0; index < 4; index++) {
     	
     }

@@ -12,8 +12,8 @@ Humans made dogs their friends thousands of years ago. But something scared away
 Use ``||agent.agent move||`` to move the Agent towards the camp site, and then use ``||agent.agent drop||`` to drop a ``Beet`` every 5 blocks.
 
 ```ghost
-    agent.move(FORWARD, 1)
-    agent.drop(FORWARD, 1, 1)
+    agent.move(FORWARD, 0)
+    agent.drop(FORWARD, 0, 0)
     for (let index = 0; index < 4; index++) {
     	
     }

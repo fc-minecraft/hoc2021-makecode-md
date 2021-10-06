@@ -12,22 +12,9 @@ This computer scientist designed the first set of punch cards, but before she wa
 Use ``||agent.agent move||`` to move the Agent above the brown blocks, and then use ``||agent.agent destroy||`` to break the block below it.
 
 ```ghost
-    agent.move(FORWARD, 1)
-    agent.destroy(DOWN)
-    agent.move(FORWARD, 2)
-    agent.destroy(DOWN)
-    agent.move(FORWARD, 2)
-    agent.destroy(DOWN)
-    agent.move(FORWARD, 1)
+    agent.move(FORWARD, 0)
+    agent.destroy(FORWARD)
     agent.turn(RIGHT_TURN)
-    agent.move(FORWARD, 2)
-    agent.turn(RIGHT_TURN)
-    agent.move(FORWARD, 1)
-    agent.destroy(DOWN)
-    agent.move(FORWARD, 2)
-    agent.destroy(DOWN)
-    agent.move(FORWARD, 2)
-    agent.destroy(DOWN)
     for (let index = 0; index < 4; index++) {
     	
     }

@@ -13,18 +13,9 @@ Give the Agent at least 4 `Bone Block` by using ``||agent.agent set item||``, th
 
 ```ghost
     agent.setItem(BONE_BLOCK, 64, 1)
-    agent.move(FORWARD, 2)
-    agent.destroy(DOWN)
-    agent.place(DOWN)
-    agent.move(FORWARD, 2)
-    agent.destroy(DOWN)
-    agent.place(DOWN)
-    agent.move(FORWARD, 2)
-    agent.destroy(DOWN)
-    agent.place(DOWN)
-    agent.move(FORWARD, 2)
-    agent.destroy(DOWN)
-    agent.place(DOWN)
+    agent.move(FORWARD, 0)
+    agent.destroy(FORWARD)
+    agent.place(FORWARD)
     for (let index = 0; index < 4; index++) {
     	
     }

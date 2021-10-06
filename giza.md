@@ -12,31 +12,10 @@ The architect of the pyramids is trying to build a structure that will last the 
 Give the Agent `Smooth Stone` by using ``||agent.agent set item||``, then use ``||agent.agent move||`` to move the Agent into position and ``||agent.agent place||`` to place the `Smooth Stone`.
 
 ```ghost
-    agent.setItem(SMOOTH_SANDSTONE, 64, 1)
-    agent.move(FORWARD, 1)
-    agent.place(BACK)
-    agent.move(FORWARD, 1)
-    agent.place(BACK)
-    agent.move(FORWARD, 1)
-    agent.place(BACK)
-    agent.move(FORWARD, 1)
-    agent.place(BACK)
-    agent.move(FORWARD, 1)
-    agent.place(BACK)
-    agent.move(UP, 1)
+    agent.setItem(SMOOTH_SANDSTONE, 64, 0)
+    agent.move(FORWARD, 0)
+    agent.place(FORWARD)
     agent.turn(LEFT_TURN)
-    agent.turn(LEFT_TURN)
-    agent.move(FORWARD, 3)
-    agent.place(BACK)
-    agent.move(FORWARD, 1)
-    agent.place(BACK)
-    agent.move(FORWARD, 1)
-    agent.place(BACK)
-    agent.move(UP, 1)
-    agent.turn(LEFT_TURN)
-    agent.turn(LEFT_TURN)
-    agent.move(FORWARD, 3)
-    agent.place(BACK)
     for (let index = 0; index < 4; index++) {
     	
     }

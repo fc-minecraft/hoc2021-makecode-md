@@ -5,7 +5,7 @@
 # Elements of Discovery
 
 ## Step 1
-When the scientist left the room, someone hid some of her research inside the bookcases. Use the Agent to break the bookcases that are hiding the missing research.
+When the Chemist left the room, someone hid some of her research inside the bookcases. Use the Agent to break the bookcases that are hiding the missing research.
 
 
 #### ~ tutorialhint 

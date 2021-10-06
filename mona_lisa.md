@@ -5,7 +5,7 @@
 # The Mona Lisa
 
 ## Step 1
-The Mona Lisa's famous smile is now a frown. Someone has trampled her garden. Use the Agent to place White Glazed Terracotta in a 6x6x6x6 square to begin construction of a beautiful new fountain.
+The Mona Lisa's famous smile is now a frown. Someone has destroyed her garden. Use the Agent to place White Glazed Terracotta in a 6x6x6x6 square to begin construction of a beautiful new fountain.
 
 
 #### ~ tutorialhint 

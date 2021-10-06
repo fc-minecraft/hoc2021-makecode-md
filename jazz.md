@@ -5,7 +5,7 @@
 # Big Band Jazz
 
 ## Step 1
-The Jazz musician lost his trumpet and has been playing the kazoo. Use the Agent to get through the maze and collect the trumpet to help restore history!
+The Jazz Musician lost his trumpet and has been playing the kazoo. Use the Agent to get through the maze and collect the trumpet to help restore history!
 
 
 #### ~ tutorialhint 

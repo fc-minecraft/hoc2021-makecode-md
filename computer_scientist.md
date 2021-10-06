@@ -5,7 +5,7 @@
 # First Computer Scientist
 
 ## Step 1
-Punch cards were one of the first ways people "programmed" computers. The computer scientist designed the first set of punch cards, but before she was able to send them someone filled all the holes in. Use your agent to break the brown blocks to make the cards work again.
+This computer scientist designed the first set of punch cards, but before she was able to send them someone filled all the holes in. Use your agent to break the brown blocks to make the cards work again.
 
 
 #### ~ tutorialhint 

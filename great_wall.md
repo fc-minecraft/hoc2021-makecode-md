@@ -5,7 +5,7 @@
 # The Great Wall of China
 
 ## Step 1
-Pandas keep eating the bamboo scaffolding, stopping the workers from getting high enough to complete the wall. Plant 5 pieces of bamboo to lead the pandas away from the wall so the workers can complete their work.
+Pandas keep eating the bamboo scaffolding, stopping the workers from getting high enough to complete the wall. Plant 5 pieces of bamboo to lead the pandas away from the wall.
 
 
 #### ~ tutorialhint 

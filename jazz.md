@@ -2,14 +2,14 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# Big Band Jazz.
+# Big Band Jazz
 
 ## Step 1
 The Jazz musician lost his trumpet and has been playing the kazoo. Use the Agent to get through the maze and collect the trumpet to help restore history!
 
 
 #### ~ tutorialhint 
-Use the ``||agent.move||`` block get through the maze and the ``||agent.collectAll||`` block to pick it up.
+Use ``||agent.move||`` to get through the maze and ``||agent.collectAll||`` to pick up the trumpet.
 
 ```ghost
     agent.move(FORWARD, 3)

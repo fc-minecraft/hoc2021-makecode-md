@@ -2,7 +2,7 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# Mission Moon
+# Power Timeline
 
 ## Step 1
 Move your Agent 3 blocks forward to power on the system.

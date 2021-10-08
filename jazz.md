@@ -5,7 +5,7 @@
 # Big Band Jazz
 
 ## Step 1
-The Jazz Musician has lost his trumpet and is using a kazoo instead. Code your AGENT to make its way through the maze and collect the trumpet.
+The Jazz Trumpeter has lost his trumpet and is using a kazoo instead. Code your AGENT through the maze and collect the trumpet.
 
 
 #### ~ tutorialhint 

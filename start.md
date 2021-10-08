@@ -5,10 +5,10 @@
 # Power the Timeline
 
 ## Step 1
-Welcome to your first coding task. You will use blocks from the TOOLBOX below to move your AGENT. DRAG the ``||agent.agent move||`` block to the ``||blocks.on start||`` block in the code window. Change the number 1 to number 3, so that your AGENT will move FORWARD the right number of steps. Press the GREEN PLAY BUTTON in the bottom right-hand corner of the code window to RUN YOUR CODE.
+Welcome to your first coding task. Use blocks from the TOOLBOX to move your AGENT. DRAG the ``||agent.agent move||`` block to the ``||blocks.on start||`` block and change the number from 1 to 3. Then press the GREEN PLAY BUTTON.
 
 #### ~ tutorialhint 
-Use ``||agent.agent move||`` to move the Agent forward.
+Use ``||agent.agent move||`` to move the Agent forward 3 blocks.
 
 ```ghost
     agent.move(FORWARD, 0)

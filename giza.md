@@ -5,11 +5,11 @@
 # Pyramids of Giza
 
 ## Step 1
-The Architect of the pyramids is trying to build a structure that will last the test of time. Teach them how to make a pyramid by building a 3 layer triangle on the platform.
+The Architect is trying to design a building that will stand the test of time. Think about how a pyramid can be created using blocks. There will be three levels. In the first level there will be five blocks. Then the second level will have three blocks. The final and third level will have one block. 
 
 
 #### ~ tutorialhint 
-Give the Agent `Smooth Stone` by using ``||agent.agent set item||``, then use ``||agent.agent move||`` to move the Agent into position and ``||agent.agent place||`` to place the `Smooth Stone`.
+Workout how the AGENT needs to move to place the right number of blocks for each level of the pyramid. At the start, give your AGENT `Smooth Sandstone` using ``||agent.agent set block or item||``. Then use the ``||agent.agent move||`` block to move your agent forward and for each step use ``||agent.agent place||`` to place a block.
 
 ```ghost
     agent.setItem(SMOOTH_SANDSTONE, 64, 0)

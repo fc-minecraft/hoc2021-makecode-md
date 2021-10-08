@@ -5,10 +5,10 @@
 # Mission Moon
 
 ## Step 1
-Send your Agent to dock with the module to deliver the information. You won't be able to count the Agent's movement, so you'll need to rely on the calculations given to you by the Mathematician. 
+You need to dock your agent with the space module. You cannot count the spaces that the AGENT must move to complete the mission. You might want to think about the moves required before coding and you will need to use the information the Mathematician provides to complete the task.
 
 #### ~ tutorialhint 
-Use ``||agent.agent move||`` to dock the Agent with the moon module by moving it forward 25, right 17, and down 3.
+Use the ``||agent.agent move||`` and ``||agent.agent turn||`` blocks within the ``||blocks.on start||`` block to position your agent forward 25, right 17, and down 3.
 
 ```ghost
     agent.move(FORWARD, 0)

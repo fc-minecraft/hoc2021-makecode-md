@@ -5,11 +5,10 @@
 # Elements of Discovery
 
 ## Step 1
-When the Chemist left the room, someone hid some of her research inside the bookcases. Use the Agent to break the bookcases that are hiding the missing research.
-
+When the Chemist left the room, someone hid her research inside the bookcase. Code your AGENT to break the green glowing bookcases, so that the research does not remain hidden.
 
 #### ~ tutorialhint 
-Use ``||agent.agent move||`` to move the Agent towards the bookcases with the green glow and then use ``||agent.agent destroy||`` to break them.
+Use ``||agent.agent move||`` and ``||agent.agent turn||`` to move your AGENT to the green glowing bookcases. Use ``||agent.agent destroy||`` to destroy the green glowing bookcase blocks. Repeat this until all the green glowing bookcase blocks are destroyed.
 
 ```ghost
     agent.move(FORWARD, 0)

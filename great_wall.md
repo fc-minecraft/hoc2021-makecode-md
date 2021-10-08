@@ -5,11 +5,10 @@
 # The Great Wall of China
 
 ## Step 1
-Pandas keep eating the bamboo scaffolding stopping the Engineer from getting high enough to complete the wall. Plant 5 pieces of bamboo to lead the pandas away from the wall.
-
+The Pandas keep eating the bamboo scaffolding and stopping the Engineer from getting to the right part of the wall and completing it. To solve this challenge, code your AGENT to place 5 pieces of bamboo that will lead the pandas away from the wall.
 
 #### ~ tutorialhint 
-Give the Agent `Bamboo` by using ``||agent.agent set item||``, then use the ``||agent.agent move||`` to move the Agent into position and ``||agent.agent place||`` to place the `Bamboo`.
+Use ``||agent.agent set block or item||`` to make sure your AGENT places `Bamboo`. Use the ``||agent.agent move||`` block to position your AGENT and ``||agent.agent place||`` to place the `Bamboo`.
 
 ```ghost
     agent.setItem(BAMBOO, 64, 0)

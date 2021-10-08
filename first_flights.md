@@ -2,7 +2,7 @@
 ### @hideIteration true
 ### @explicitHints true
 
-#First Flight
+# First Flight
 
 ## Step 1
 The first flight is scheduled to take off any minute now, but someone came and put holes in the runway! Use the Agent to fill the holes so the airplane can have a smooth take off.

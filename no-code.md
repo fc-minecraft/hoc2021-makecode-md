@@ -11,5 +11,3 @@ There's no current activities active that need code. Either select a new locatio
 player.onChat("run", function () {
 })
 ```
-```package
-```

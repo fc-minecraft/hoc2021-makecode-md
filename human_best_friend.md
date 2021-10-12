@@ -5,10 +5,10 @@
 # Human's Best Friends
 
 ## Step 1
-Dogs have been friend with people for thousands of years. But, something has scared the dogs away. Code your AGENT to leave BEETS 5 blocks apart, so the wolves come to the people at the camp.
+Dogs have been friends with people for thousands of years. But, something has scared the dogs away. Code your AGENT to leave ``Beet`` items 5 blocks apart, so the wolves come to the people at the camp.
 
 #### ~ tutorialhint 
-Give your AGENT beets by using the ``||agent.agent set block or item||`` to ``Beet``. Move your AGENT to the right place using ``||agent.agent move||`` and ``||agent.agent turn||``. At the right point use ``||agent.agent drop||`` to drop a ``Beet``. Repeat this until the right number of ``Beet`` items are placed.
+Give your AGENT ``Beet`` items by using the ``||agent.agent set block or item||`` to ``Beet``. Move your AGENT to the right place using A``||agent.agent move||`` and ``||agent.agent turn||``. At the right point use ``||agent.agent drop||`` to drop a ``Beet``. Repeat this until the right number of BEETS are placed.
 
 ```ghost
     agent.setItem(BEET, 64, 0)

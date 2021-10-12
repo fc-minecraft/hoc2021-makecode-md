@@ -5,7 +5,7 @@
 # First Flight
 
 ## Step 1
-One of the first planes are about to take off. But, there are holes in the runway! Code your AGENT to fill the holes.
+One of the first planes is about to take off, but there are holes in the runway! Code your AGENT to fill the holes with `Dirt` blocks. 
 
 #### ~ tutorialhint 
 Give the AGENT a `Dirt` block to start by using ``||agent.agent set block or item||``. Then use ``||agent.agent move||`` to send your AGENT to the hole. Fill each hole using ``||agent.agent place||`` block. Repeat ``||agent.agent move||`` and ``||agent.agent place||`` until all the holes are filled.

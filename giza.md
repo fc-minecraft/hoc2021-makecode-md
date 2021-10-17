@@ -20,7 +20,7 @@ Think about how the Agent needs to move to place the right number of blocks for 
     }
 ```
 ```template
-\\
+agent.setItem(SMOOTH_SANDSTONE, 64, 0)
 ```
 ```package
 ```

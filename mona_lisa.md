@@ -20,7 +20,7 @@ Use ``||agent.agent set block or item||`` to give your Agent a `White Glazed Ter
     }
 ```
 ```template
-\\
+agent.setItem(WHITE_GLAZED_TERRACOTTA, 64, 0)
 ```
 ```package
 ```

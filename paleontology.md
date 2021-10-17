@@ -19,7 +19,7 @@ Use ``||agent.agent set block or item||`` to give your Agent a `Bone Block`. Use
     }
 ```
 ```template
-\\
+agent.setItem(BONE_BLOCK, 64, 1)
 ```
 ```package
 ```

@@ -18,7 +18,7 @@ Give your Agent ``Beet`` items by using the ``||agent.agent set block or item||`
     }
 ```
 ```template
-\\
+agent.setItem(BEET, 64, 0)
 ```
 ```package
 ```

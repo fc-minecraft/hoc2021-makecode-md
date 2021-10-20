@@ -2,10 +2,10 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# The Great Wall of China
+# The Great Wall of China (Debug)
 
 ## Step 1
-The Pandas keep eating the bamboo scaffolding, stopping the Engineer from completing the wall. Lead the pandas away from the wall. Code your Agent to place 5 `Bamboo` pieces in the field.
+There's something wrong with the below code. Press the green play button to run it to see what happens, and then debug it to see what's wrong and what changes are needed to make it work.
 
 #### ~ tutorialhint 
 Use ``||agent.agent set block or item||`` to make sure your Agent places `Bamboo`. Use the ``||agent.agent move||`` block to position your Agent and ``||agent.agent place||`` to place the `Bamboo` in the direction you want it placed.
@@ -20,6 +20,10 @@ Use ``||agent.agent set block or item||`` to make sure your Agent places `Bamboo
 ```
 ```template
 agent.setItem(BAMBOO, 64, 0)
+for (let index = 0; index < 3; index++) {
+    agent.place(UP)
+    agent.move(BACK, 1)
+}
 ```
 ```package
 ```

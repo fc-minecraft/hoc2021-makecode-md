@@ -40,7 +40,7 @@
         "elements_discovery-3.md",
         "start.md",
         "no-code.md",
-        "deploy_agent"
+        "deploy_agent.md"
     ],
     "testFiles": [],
     "public": true,

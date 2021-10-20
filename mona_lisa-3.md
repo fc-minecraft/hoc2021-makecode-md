@@ -2,10 +2,10 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# The Mona Lisa
+# The Mona Lisa (Solution)
 
 ## Step 1
-The Mona Lisa has a frown, not her famous smile. This is because her garden has been destroyed. You will need to PLACE `White Glazed Terracotta` blocks, so that they form a square outline which is 6 blocks in length by 6 blocks in width.
+The below code is the correct solution to the activity. Run the code by pressing the green play button to see it in action.
 
 #### ~ tutorialhint 
 Use ``||agent.agent set block or item||`` to give your Agent a `White Glazed Terracotta` block. Use the ``||agent.agent move||`` to move your Agent and then ``||agent.agent place||`` to place a block in the direction you want the block placed. Repeat ``||agent.agent move||`` and ``||agent.agent place||`` until the right number of blocks are placed.
@@ -21,6 +21,26 @@ Use ``||agent.agent set block or item||`` to give your Agent a `White Glazed Ter
 ```
 ```template
 agent.setItem(WHITE_GLAZED_TERRACOTTA, 64, 0)
+for (let index = 0; index < 5; index++) {
+    agent.move(FORWARD, 1)
+    agent.place(DOWN)
+}
+agent.turn(RIGHT_TURN)
+for (let index = 0; index < 5; index++) {
+    agent.move(FORWARD, 1)
+    agent.place(DOWN)    	
+}
+agent.turn(RIGHT_TURN)
+for (let index = 0; index < 5; index++) {
+    agent.move(FORWARD, 1)
+    agent.place(DOWN)    	
+}
+agent.turn(RIGHT_TURN)
+for (let index = 0; index < 5; index++) {
+    agent.move(FORWARD, 1)
+    agent.place(DOWN)    	
+}
+agent.turn(RIGHT_TURN)
 ```
 ```package
 ```

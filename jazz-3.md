@@ -2,10 +2,10 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# Big Band Jazz
+# Big Band Jazz (Solution)
 
 ## Step 1
-The Jazz Musician has lost his trumpet and is using a kazoo instead. Code your Agent through the maze and collect the trumpet.
+The below code is the correct solution to the activity. Run the code by pressing the green play button to see it in action.
 
 #### ~ tutorialhint 
 Drag ``||agent.agent move||`` into ``||blocks.on start||`` to give instructions to your agent on how to move. Count how far and in what 
@@ -15,7 +15,15 @@ direction the agent needs to move and use the agent move block direction (UP, DO
     agent.collectAll()
 ```
 ```template
-\\
+agent.move(FORWARD, 3)
+agent.move(UP, 1)
+agent.move(FORWARD, 2)
+agent.move(DOWN, 2)
+agent.move(FORWARD, 2)
+agent.move(UP, 2)
+agent.move(FORWARD, 1)
+agent.collectAll()
+
 ```
 ```package
 ```

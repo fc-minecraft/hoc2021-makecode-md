@@ -39,7 +39,8 @@
         "paleontology-3.md",
         "elements_discovery-3.md",
         "start.md",
-        "no-code.md"
+        "no-code.md",
+        "deploy_agent"
     ],
     "testFiles": [],
     "public": true,

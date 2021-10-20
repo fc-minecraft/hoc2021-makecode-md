@@ -2,10 +2,10 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# First Computer Scientist
+# First Computer Scientist (Debug)
 
 ## Step 1
-The computer scientist has created punch cards that contain the instructions for the first algorithm, but the punch card holes are blocked. Code your Agent to DESTROY the BROWN blocks to make the cards work.
+There's something wrong with the below code. Press the green play button to run it to see what happens, and then debug it to see what's wrong and what changes are needed to make it work.
 
 #### ~ tutorialhint 
 Use ``||agent.agent move||`` and ``||agent.agent turn||`` to move your Agent to each BROWN block. Then use ``||agent.agent destroy||`` in the direction you want the block destroyed to remove the BROWN block. Repeat this until all the BROWN blocks are destroyed.
@@ -19,7 +19,20 @@ Use ``||agent.agent move||`` and ``||agent.agent turn||`` to move your Agent to 
     }
 ```
 ```template
-\\
+agent.move(FORWARD, 1)
+agent.destroy(up)
+agent.move(FORWARD, 2)
+agent.destroy(up)
+agent.move(FORWARD, 2)
+agent.destroy(up)
+agent.turn(LEFT_TURN)
+agent.move(FORWARD, 2)
+agent.turn(LEFT_TURN)
+agent.destroy(up)
+agent.move(FORWARD, 2)
+agent.destroy(up)
+agent.move(FORWARD, 2)
+agent.destroy(up)
 ```
 ```package
 ```

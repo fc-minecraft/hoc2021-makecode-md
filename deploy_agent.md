@@ -12,6 +12,7 @@ Hit the green play button to close this window and continue on to your adventure
 ```ghost
 player.onChat("run", function () {
 })
+```
 ```template
 player.onChat("run", function () {
 })

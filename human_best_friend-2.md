@@ -7,7 +7,7 @@
 ## Step 1
 There's something wrong with the below code. Press the green play button to run it to see what happens, and then debug it to see what's wrong and what changes are needed to make it work.
 #### ~ tutorialhint 
-Give your Agent ``Beet`` items by using the ``||agent.agent set block or item||``. Move your Agent to the right place using ``||agent.agent move||`` and ``||agent.agent turn||``. At the right point use ``||agent.agent drop||`` to drop a ``Beet``. Repeat this until the right number of BEETS are placed 5 blocks apart.
+Give your Agent ``Beetroot`` items by using the ``||agent.agent set block or item||``. Move your Agent to the right place using ``||agent.agent move||`` and ``||agent.agent turn||``. At the right point use ``||agent.agent drop||`` to drop a ``Beet``. Repeat this until the right number of BEETS are placed 5 blocks apart.
 
 ```ghost
     agent.setItem(BEETROOT, 64, 0)

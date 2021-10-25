@@ -19,7 +19,7 @@ Give the Agent a `Dirt` block to start by using ``||agent.agent set block or ite
     }
 ```
 ```template
-agent.setItem(DIRT, 64, 0)
+agent.setItem(DIRT, 64, 1)
 for (let index = 0; index < 2; index++) {
     agent.move(FORWARD, 1)    	
     agent.place(DOWN)

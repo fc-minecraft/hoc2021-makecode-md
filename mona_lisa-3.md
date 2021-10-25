@@ -20,7 +20,7 @@ Use ``||agent.agent set block or item||`` to give your Agent a `White Glazed Ter
     }
 ```
 ```template
-agent.setItem(WHITE_GLAZED_TERRACOTTA, 64, 0)
+agent.setItem(WHITE_GLAZED_TERRACOTTA, 64, 1)
 for (let index = 0; index < 5; index++) {
     agent.move(FORWARD, 1)
     agent.place(DOWN)
@@ -30,17 +30,6 @@ for (let index = 0; index < 5; index++) {
     agent.move(FORWARD, 1)
     agent.place(DOWN)    	
 }
-agent.turn(RIGHT_TURN)
-for (let index = 0; index < 5; index++) {
-    agent.move(FORWARD, 1)
-    agent.place(DOWN)    	
-}
-agent.turn(RIGHT_TURN)
-for (let index = 0; index < 5; index++) {
-    agent.move(FORWARD, 1)
-    agent.place(DOWN)    	
-}
-agent.turn(RIGHT_TURN)
 ```
 ```package
 ```

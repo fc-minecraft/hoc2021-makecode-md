@@ -19,7 +19,7 @@ Give your Agent ``Beet`` items by using the ``||agent.agent set block or item||`
 ```
 ```template
 agent.setItem(BEET, 64, 1)
-for (let index = 0; index < 11; index++) {
+for (let index = 0; index < 6; index++) {
     agent.drop(FORWARD, 1, 1)
     agent.move(FORWARD, 4)
 }

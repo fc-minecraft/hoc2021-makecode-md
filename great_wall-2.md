@@ -19,7 +19,7 @@ Use ``||agent.agent set block or item||`` to make sure your Agent places `Bamboo
     }
 ```
 ```template
-agent.setItem(BAMBOO, 64, 0)
+agent.setItem(BAMBOO, 64, 1)
 for (let index = 0; index < 3; index++) {
     agent.place(UP)
     agent.move(BACK, 1)

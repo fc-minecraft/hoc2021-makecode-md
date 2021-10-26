@@ -5,7 +5,7 @@
 # Paleontology Puzzle
 
 ## Step 1
-Someone has removed bones from the dinosaur skeleton and replaced them with sand. Code your Agent to DESTROY the SAND BLOCKS and PLACE BONE blocks.
+Someone has removed bones from the dinosaur skeleton and replaced them. Code your Agent to DESTROY the orange blocks and PLACE `Bone Block`.
 #### ~ tutorialhint 
 Use ``||agent.agent set block or item||`` to give your Agent a `Bone Block`. Use the ``||agent.agent move||`` to move your Agent and then ``||agent.agent destroy||`` in the direction you want the block SAND blocks destroyed and ``||agent.agent place||`` to place a `Bone Block` in the direction you want the block placed. Repeat this until the right number of blocks are placed.
 

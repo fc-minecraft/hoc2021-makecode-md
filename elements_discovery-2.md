@@ -19,16 +19,9 @@ Use ``||agent.agent move||`` and ``||agent.agent turn||`` to move your Agent to 
     }
 ```
 ```template
-agent.move(UP, 3)
-agent.move(FORWARD, 2)
+agent.move(UP, 2)
+agent.move(FORWARD, 3)
 agent.destroy(LEFT)
-agent.move(FORWARD, 5)
-agent.turn(LEFT_TURN)
-agent.move(FORWARD, 8)
-agent.destroy(LEFT)
-agent.turn(RIGHT_TURN)
-agent.move(FORWARD, 8)
-agent.destroy(FORWARD)
 ```
 ```package
 ```

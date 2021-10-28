@@ -20,19 +20,19 @@ Use ``||agent.agent move||`` and ``||agent.agent turn||`` to move your Agent to 
 ```
 ```template
 agent.move(FORWARD, 1)
-agent.destroy(up)
+agent.destroy(UP)
 agent.move(FORWARD, 2)
-agent.destroy(up)
+agent.destroy(UP)
 agent.move(FORWARD, 2)
-agent.destroy(up)
+agent.destroy(UP)
 agent.turn(LEFT_TURN)
 agent.move(FORWARD, 2)
 agent.turn(LEFT_TURN)
-agent.destroy(up)
+agent.destroy(UP)
 agent.move(FORWARD, 2)
-agent.destroy(up)
+agent.destroy(UP)
 agent.move(FORWARD, 2)
-agent.destroy(up)
+agent.destroy(UP)
 ```
 ```package
 ```

@@ -5,13 +5,12 @@
 # The Mona Lisa
 
 ## Step 1
-The Mona Lisa lost her famous smile. You will need to PLACE `White Glazed Terracotta` blocks to form a square outline which is 6 blocks in length by 6 blocks in width.
+The Mona Lisa lost her famous smile. You will need to place the `White Glazed Terracotta` blocks we've given the Agent to form a square outline which is 6 blocks in length by 6 blocks in width.
 
 #### ~ tutorialhint 
-Use ``||agent.agent set block or item||`` to give your Agent a `White Glazed Terracotta` block. Use the ``||agent.agent move||`` to move your Agent and then ``||agent.agent place||`` to place a block in the direction you want the block placed. Repeat ``||agent.agent move||`` and ``||agent.agent place||`` until the right number of blocks are placed.
+Use the ``||agent.agent move||`` to move your Agent and then ``||agent.agent place||`` to PLACE the `White Glazed Terracotta` we've given the Agent. Repeat ``||agent.agent move||`` and ``||agent.agent place||`` until the right number of blocks are placed.
 
 ```ghost
-    agent.setItem(WHITE_GLAZED_TERRACOTTA, 64, 0)
     agent.move(FORWARD, 0)
     agent.place(FORWARD)
     agent.turn(RIGHT_TURN)
@@ -20,7 +19,6 @@ Use ``||agent.agent set block or item||`` to give your Agent a `White Glazed Ter
     }
 ```
 ```template
-agent.setItem(WHITE_GLAZED_TERRACOTTA, 64, 1)
 ```
 ```package
 ```

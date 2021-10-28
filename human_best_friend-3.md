@@ -7,10 +7,9 @@
 ## Step 1
 The below code is the correct solution to the activity. Run the code by pressing the green play button to see it in action.
 #### ~ tutorialhint 
-Give your Agent ``Beetroot`` items by using the ``||agent.agent set block or item||``. Move your Agent to the right place using ``||agent.agent move||`` and ``||agent.agent turn||``. At the right point use ``||agent.agent drop||`` to drop a ``Beet``. Repeat this until the right number of BEETS are placed 5 blocks apart.
+Move your Agent to the right place using ``||agent.agent move||`` and ``||agent.agent turn||``. At the right point use ``||agent.agent drop||`` to DROP a `Beetroot` we've given the Agent. Repeat this until the right number of `Beetroot` are placed 5 blocks apart.
 
 ```ghost
-    agent.setItem(BEETROOT, 64, 0)
     agent.move(FORWARD, 0)
     agent.drop(FORWARD, 0, 0)
     for (let index = 0; index < 4; index++) {
@@ -18,7 +17,6 @@ Give your Agent ``Beetroot`` items by using the ``||agent.agent set block or ite
     }
 ```
 ```template
-agent.setItem(BEETROOT, 64, 1)
 for (let index = 0; index < 6; index++) {
     agent.drop(FORWARD, 1, 1)
     agent.move(FORWARD, 4)

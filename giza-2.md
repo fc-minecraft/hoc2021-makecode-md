@@ -21,15 +21,6 @@ Think about how the Agent needs to move to place the right number of blocks for 
 ```
 ```template
 agent.setItem(SMOOTH_SANDSTONE, 64, 1)
-for (let index=0); index < 4; index++){
-agent.move(FORWARD, 1)
-agent.place(BACK)
-}
-agent.move(UP, 1)
-agent.turn(LEFT_TURN)
-agent.turn(RIGHT_TURN)
-agent.move(FORWARD, 1)
-agent.move(FORWARD, 1)
 for (let index=0); index < 3; index++){
 agent.move(FORWARD, 1)
 agent.place(BACK)

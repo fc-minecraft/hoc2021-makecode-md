@@ -10,7 +10,6 @@ There's something wrong with the below code. Press the green play button to run 
 Use the ``||agent.agent move||`` to move your Agent and then ``||agent.agent destroy||`` in the direction you want the block orange blocks DESTROYED and ``||agent.agent place||`` to PLACE a `Bone Block` we've given the Agent. Repeat this until the right number of blocks are placed.
 
 ```ghost
-    agent.setItem(BONE_BLOCK, 64, 1)
     agent.move(FORWARD, 0)
     agent.destroy(FORWARD)
     agent.place(FORWARD)
@@ -19,7 +18,6 @@ Use the ``||agent.agent move||`` to move your Agent and then ``||agent.agent des
     }
 ```
 ```template
-agent.setItem(BONE_BLOCK, 64, 1)
 for (let index = 0; index < 3; index++) {
     agent.move(FORWARD, 2)    
     agent.destroy(DOWN)

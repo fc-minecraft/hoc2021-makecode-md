@@ -2,7 +2,7 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# Power the Timeline
+# Test Area
 
 ## Step 1
 Welcome to your first coding task. Let's test your Time Agent to see how it follows your code. Use blocks from the TOOLBOX to move your Agent FORWARD.

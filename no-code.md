@@ -8,10 +8,8 @@
 There's no current activities active that need code. Either select a new location from the timeline or use your TALK device to start the activity.
 
 ```ghost
-player.onChat("run", function () {
-})
+null
 ```
 ```template
-player.onChat("run", function () {
-})
+{}
 ```

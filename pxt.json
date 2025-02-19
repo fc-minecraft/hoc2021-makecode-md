@@ -73,7 +73,8 @@
         "ar/elements_discovery-3.md",
         "ar/start.md",
         "ar/no-code.md",
-        "ar/deploy_agent.md"
+        "ar/deploy_agent.md",
+        "tutorial-info-cache.json"
     ],
     "testFiles": [],
     "public": true,

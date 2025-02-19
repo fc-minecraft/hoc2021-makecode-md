@@ -5,10 +5,10 @@
 # Mission Moon (Solution)
 
 ## Step 1
-The below code is the correct solution to the activity. Run the code by pressing the green play button to see it in action.
+الكود الموجود أدناه يمثل الحل الصحيح للنشاط. يمكنك تشغيله من خلال الضغط على زر التشغيل الأخضر لمشاهدة كيفية عمله.
 
-#### ~ tutorialhint 
-Use the ``||agent.agent move||`` and ``||agent.agent turn||`` blocks within the ``||blocks.on start||`` block to deliver the calculations to the space module. Use the Mathematician's calculations to help you determine the path the Agent should take. Forward 25, right 17, and down 3.
+#### ~ tutorialhint  
+استخدم ``||agent.agent move||`` و ``||agent.agent turn||`` داخل البلوك ``||blocks.on start||`` لترسل الحسابات إلى وحدة الفضاء. استخدم حسابات الرياضي لمساعدتك في تحديد المسار الذي يجب أن يسلكه الروبوت. تقدم 25 خطوة، ثم اتجه يمينا 17 خطوة، ثم 3 خطوات للأسفل
 
 ```ghost
     agent.move(FORWARD, 0)

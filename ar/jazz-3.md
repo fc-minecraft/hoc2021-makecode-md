@@ -5,11 +5,11 @@
 # Big Band Jazz (Solution)
 
 ## Step 1
-The below code is the correct solution to the activity. Run the code by pressing the green play button to see it in action.
+الكود الموجود أدناه يمثل الحل الصحيح للنشاط. يمكنك تشغيله من خلال الضغط على زر التشغيل الأخضر لمشاهدة كيفية عمله.
 
-#### ~ tutorialhint 
-Drag ``||agent.agent move||`` into ``||blocks.on start||`` to give instructions to your agent on how to move. Count how far and in what 
-direction the agent needs to move and use the agent move block direction (UP, DOWN, LEFT, RIGHT) and distance to move to the trumpet. At the end of your code use ``||agent.agent collect all||`` to collect the trumpet.
+#### ~ tutorialhint  
+قم بسحب ``||agent.agent move||`` إلى ``||blocks.on start||`` لإعطاء تعليمات لروبوت حول كيفية الحركة. احسب
+المسافة والاتجاه الذي يحتاج الروبوت الحركة فيهما واستخدم بلوك حركة الروبوت (أعلى، أسفل، يسار، يمين) والمسافة اللازمة للوصول إلى البوق. في نهاية الكود، استخدم ``||agent.agent collect all||`` للحصول على البوق.
 ```ghost
     agent.move(FORWARD, 0)
     agent.collectAll()

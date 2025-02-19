@@ -5,10 +5,11 @@
 # Great Pyramid at Giza
 
 ## Step 1
-Help the Architect finish the triangle, a design that will stand the test of time. Think how to create a triangle. There are 2 more levels needed: 3 blocks on the bottom, and 1 block on the top.
+ساعد المهندس المعماري في إكمال الشكل  المثلث،  وهو تصميم سيصمد أمام اختبار الزمن. فكر في كيفية إنشاء مثلث. هناك مستويان إضافيان مطلوبان: 3 بلوكات في القاعدة، وبلوك واحد في القمة.
 
-#### ~ tutorialhint 
-Think about how the Agent needs to move to place the right number of blocks for each level of the pyramid. Use the ``||agent.agent move||`` block to move your agent forward and for each step use ``||agent.agent place||`` to PLACE the `Smooth Sandstone` we've given the Agent.
+#### ~ tutorialhint  
+فكر في كيفية تحرك الروبوت لوضع العدد المناسب من البلوكتن لكل مستوى من مستويات الهرم. استخدم الـ``||agent.agent move||`` استخدم المفتاح "ock" لتحريك الروبوت للأمام، وفي كل خطوة استخدم ``||agent.agent place||`` لوضع الـ `Smooth Sandstone` الذي قدمناه للروبوت.
+
 
 ```ghost
     agent.move(FORWARD, 0)

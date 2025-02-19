@@ -5,10 +5,10 @@
 # Elements of Discovery
 
 ## Step 1
-When the chemist left the room, someone hid her research inside the bookcase. Code your Agent to DESTROY the green glowing bookcase, so that she can share her discoveries. 
+عندما غادرت الكيميائية الغرفة، قام شخص ما بإخفاء أبحاثها داخل خزانة الكتب. قم ببرمجة الروبوت لتدمير خزانة الكتب المتوهجة باللون الأخضر، حتى تتمكن من مشاركة اكتشافاتها مع العالم.
 
-#### ~ tutorialhint 
-Use ``||agent.agent move||`` and ``||agent.agent turn||`` to move your Agent to the green glowing bookcases. Use ``||agent.agent destroy||`` in the direction you want to destroy the green glowing bookcases block.
+#### ~ tutorialhint  
+استخدم ``||agent.agent move||`` و ``||agent.agent turn||`` لنقل الروبوت إلى الرفوف المتوهجة باللون الأخضر.  ``||agent.agent destroy||`` في الاتجاه الذي ترغب فيه بتدمير خزائن الكتب المتوهجة باللون الأخضر.
 
 ```ghost
     agent.move(FORWARD, 0)

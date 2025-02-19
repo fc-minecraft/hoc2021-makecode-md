@@ -5,9 +5,9 @@
 # Human's Best Friends
 
 ## Step 1
-Dogs have been friends with people for thousands of years. But, something has scared the dogs away. Code your Agent to DROP the `Beetroot` items we've given it 5 blocks apart to help the people tame the wolves into dogs.
+لقد كانت الكلاب صديقة للناس لآلاف السنين. ولكن، هناك شيء ما أخاف الكلاب. قم ببرمجة الروبوت لإسقاط `Beetroot` التي قدمناها له على بعد 5 بلوكات لمساعدة الناس في ترويض الذئاب وتحويلها إلى كلاب.
 #### ~ tutorialhint 
-Move your Agent to the right place using ``||agent.agent move||`` and ``||agent.agent turn||``. At the right point use ``||agent.agent drop||`` to DROP a `Beetroot` we've given the Agent. Repeat this until the right number of `Beetroot` are placed 5 blocks apart.
+قم بتحريك الروبوت إلى المكان المناسب باستخدام الأزرار ``||agent.agent move||``و ``||agent.agent turn||``.وعند الوصول إلى النقطة الصحيحة، استخدم الزر   ``||agent.agent drop||`` لإسقاط `Beetroot` الذي قدمناه للروبوت. كرر هذه العملية حتى يتم وضع العدد المطلوب من`Beetroot`  على بعد 5 بلوكات.
 
 ```ghost
     agent.move(FORWARD, 0)

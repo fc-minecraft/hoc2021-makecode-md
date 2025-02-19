@@ -5,10 +5,10 @@
 # First Flight
 
 ## Step 1
-One of the first planes is about to take off, but there are holes in the runway! Code your Agent to fill the holes with `Dirt` blocks we've given it. 
+إحدى الطائرات الأولى على وشك الإقلاع، لكن هناك ثقوب في مدرج الطيران! قم ببرمجة الروبوت لملء هذه الثقوب باستخدام `Dirt` البلوكات التي قدمناها له.
 
-#### ~ tutorialhint 
-Use ``||agent.agent move||`` to send your Agent to the hole. Fill each hole using ``||agent.agent place||`` to PLACE the `Dirt` block we've given the Agent. Repeat ``||agent.agent move||`` and ``||agent.agent place||`` until all the holes are filled.
+#### ~ tutorialhint  
+استخدم ``||agent.agent move||``لترسل الروبوت إلى الحفرة. قم بملء كل حفرة باستخدام ``||agent.agent place||``إلى وضع الـ `Dirt` البلوك الذي قدمناه للروبوت. كرر. ``||agent.agent move||`` و``||agent.agent place||`` حتى يتم ملء جميع الحفر.
 
 ```ghost
     agent.move(FORWARD, 0)

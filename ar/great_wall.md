@@ -5,10 +5,10 @@
 # The Great Wall of China
 
 ## Step 1
-The Pandas keep eating the bamboo scaffolding, stopping the Engineer from completing the wall. Lead the pandas away from the wall. Code your Agent to PLACE 5 `Bamboo` pieces we've given the Agent.
+تستمر الباندا في أكل سقالات البناء الخشبية، مما يمنع المهندس من إنهاء الجدار. قم بإبعاد الباندا عن الجدار. برمج الروبوت ليضع 5. `Bamboo` الأجزاء التي قدمناها للروبوت
 
-#### ~ tutorialhint 
-Use the ``||agent.agent move||`` block to position your Agent and ``||agent.agent place||`` to PLACE the `Bamboo` we've given the Agent.
+#### ~ tutorialhint  
+استخدم الـ ``||agent.agent move||`` قم بتحديد موقع الروبوت باستخدام البلوك و ``||agent.agent place||`` لوضع الـ `Bamboo` التي قدمناها للروبوت.
 
 ```ghost
     agent.place(FORWARD)

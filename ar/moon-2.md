@@ -4,11 +4,11 @@
 
 # Mission Moon (Debug)
 
-## Step 1
-There's something wrong with the below code. Press the green play button to run it to see what happens, and then debug it to see what's wrong and what changes are needed to make it work.
+## Step 1 
+استخدم ``||agent.agent move||`` لتحريك الروبوت، ثم استخدم ``||agent.agent place||`` لوضع الـ `White Glazed Terracotta` الذي قدمناه للروبوت. كرر استخدام ``||agent.agent move||`` و ``||agent.agent place||`` حتى يتم وضع العدد المطلوب من البلوكات
 
-#### ~ tutorialhint 
-Use the ``||agent.agent move||`` and ``||agent.agent turn||`` blocks within the ``||blocks.on start||`` block to deliver the calculations to the space module. Use the Mathematician's calculations to help you determine the path the Agent should take. Forward 25, right 17, and down 3.
+#### ~ tutorialhint  
+استخدم ``||agent.agent move||`` و ``||agent.agent turn||`` داخل البلوك ``||blocks.on start||`` لترسل الحسابات إلى وحدة الفضاء. استخدم حسابات الرياضي لمساعدتك في تحديد المسار الذي يجب أن يسلكه الروبوت. تقدم 25 خطوة، ثم اتجه يمينا 17 خطوة، ثم 3 خطوات للأسفل.
 
 ```ghost
     agent.move(FORWARD, 0)

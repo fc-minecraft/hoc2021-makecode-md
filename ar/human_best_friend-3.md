@@ -5,9 +5,9 @@
 # Human's Best Friends (Solution)
 
 ## Step 1
-The below code is the correct solution to the activity. Run the code by pressing the green play button to see it in action.
-#### ~ tutorialhint 
-Move your Agent to the right place using ``||agent.agent move||`` and ``||agent.agent turn||``. At the right point use ``||agent.agent drop||`` to DROP a `Beetroot` we've given the Agent. Repeat this until the right number of `Beetroot` are placed 5 blocks apart.
+الكود الموجود أدناه يمثل الحل الصحيح للنشاط. يمكنك تشغيله من خلال الضغط على زر التشغيل الأخضر لمشاهدة كيفية عمله.
+#### ~ tutorialhint  
+قم بتحريك الروبوت إلى المكان المناسب باستخدام الأزرار ``||agent.agent move||`` و ``||agent.agent turn||``.وعند الوصول إلى النقطة الصحيحة، استخدم الزر ``||agent.agent drop||`` لإسقاط `Beetroot` الذي قدمناه للروبوت. كرر هذه العملية حتى يتم وضع العدد المطلوب من `Beetroot` على بعد 5 بلوكات.
 
 ```ghost
     agent.move(FORWARD, 0)

@@ -5,10 +5,10 @@
 # Elements of Discovery (Solution)
 
 ## Step 1
-The below code is the correct solution to the activity. Run the code by pressing the green play button to see it in action.
+الكود الموجود أدناه يمثل الحل الصحيح للنشاط. يمكنك تشغيله من خلال الضغط على زر التشغيل الأخضر لمشاهدة كيفية عمله.
 
-#### ~ tutorialhint 
-Use ``||agent.agent move||`` and ``||agent.agent turn||`` to move your Agent to the green glowing bookcases. Use ``||agent.agent destroy||`` in the direction you want to destroy the green glowing bookcases block. Repeat this until the 3 bookcase blocks are destroyed.
+#### ~ tutorialhint  
+استخدم ``||agent.agent move||`` و ``||agent.agent turn||`` لنقل الروبوت إلى الرفوف المتوهجة باللون الأخضر، استخدم``||agent.agent destroy||`` في الاتجاه الذي ترغب في تدمير خزائن الكتب المتوهجة باللون الأخضر، كرر هذه العملية حتى يتم تدمير ثلاث خزائن كتب.
 
 ```ghost
     agent.move(FORWARD, 0)

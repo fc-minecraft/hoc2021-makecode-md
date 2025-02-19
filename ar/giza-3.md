@@ -5,10 +5,10 @@
 # Great Pyramid at Giza (Solution)
 
 ## Step 1
-The below code is the correct solution to the activity. Run the code by pressing the green play button to see it in action.
+الكود الموجود أدناه يمثل الحل الصحيح للنشاط. يمكنك تشغيله من خلال الضغط على زر التشغيل الأخضر لمشاهدة كيفية عمله.
 
-#### ~ tutorialhint 
-Think about how the Agent needs to move to place the right number of blocks for each level of the pyramid. Use the ``||agent.agent move||`` block to move your agent forward and for each step use ``||agent.agent place||`` to PLACE the `Smooth Sandstone` we've given the Agent.
+#### ~ tutorialhint  
+فكر في كيفية تحرك الروبوت لوضع العدد المناسب من البلوكات لكل مستوى من مستويات الهرم. استخدم الـ ``||agent.agent move||`` استخدم البلوك لتحريك الروبوت للأمام، واستخدمها في كل خطوة. ``||agent.agent place||``  لوضع الـ `Smooth Sandstone` الذي قدمناه للروبوت.
 
 ```ghost
     agent.move(FORWARD, 0)

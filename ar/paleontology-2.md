@@ -5,9 +5,9 @@
 # Paleontology Puzzle (Debug)
 
 ## Step 1
-There's something wrong with the below code. Press the green play button to run it to see what happens, and then debug it to see what's wrong and what changes are needed to make it work.
-#### ~ tutorialhint 
-Use the ``||agent.agent move||`` to move your Agent and then ``||agent.agent destroy||`` in the direction you want the block orange blocks DESTROYED and ``||agent.agent place||`` to PLACE a `Bone Block` we've given the Agent. Repeat this until the right number of blocks are placed.
+هناك خطأ في الكود أدناه. اضغط على زر التشغيل الأخضر لتشغيله ومعرفة ما يحدث، ثم قم بتصحيح الأخطاء لتكتشف ما هو الخطأ وما التعديلات اللازمة لجعله يعمل بشكل صحيح.
+#### ~ tutorialhint  
+استخدم ``||agent.agent move||`` لتحريك الروبوت، ثم استخدم ``||agent.agent destroy||``ي الاتجاه الذي ترغب في تدمير البلوكات البرتقالية فيه، ثم استخدم ``||agent.agent place||`` لوضع `Bone Block` التي قدمناها للروبوت. كرر هذه العملية حتى يتم وضع العدد المطلوب من البلوكات.
 
 ```ghost
     agent.move(FORWARD, 0)

@@ -5,10 +5,10 @@
 # The Great Wall of China (Solution)
 
 ## Step 1
-The below code is the correct solution to the activity. Run the code by pressing the green play button to see it in action.
+الكود الموجود أدناه يمثل الحل الصحيح للنشاط. يمكنك تشغيله من خلال الضغط على زر التشغيل الأخضر لمشاهدة كيفية عمله.
 
-#### ~ tutorialhint 
-Use the ``||agent.agent move||`` block to position your Agent and ``||agent.agent place||`` to PLACE the `Bamboo` we've given the Agent.
+#### ~ tutorialhint  
+استخدم بلوك  ``||agent.agent move||`` لتحديد موقع الروبوت، وبلوك ``||agent.agent place||`` لوضع الـ `Bamboo` الذي قدمناه للروبوت.
 
 ```ghost
     agent.place(FORWARD)

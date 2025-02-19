@@ -5,10 +5,10 @@
 # The Great Wall of China (Debug)
 
 ## Step 1
-There's something wrong with the below code. Press the green play button to run it to see what happens, and then debug it to see what's wrong and what changes are needed to make it work.
+هناك خطأ في الكود أدناه. اضغط على زر التشغيل الأخضر لتشغيله ومعرفة ما يحدث، ثم قم بتصحيح الأخطاء لتكتشف ما هو الخطأ وما التعديلات اللازمة لجعله يعمل بشكل صحيح.
 
-#### ~ tutorialhint 
-Use the ``||agent.agent move||`` block to position your Agent and ``||agent.agent place||`` to PLACE the `Bamboo` we've given the Agent.
+#### ~ tutorialhint  
+استخدم الـ ``||agent.agent move||``  لتحديد موقع الروبوت و ``||agent.agent place||`` لوضع الـ `Bamboo` الذي قدمناه للروبوت
 
 ```ghost
     agent.place(FORWARD)

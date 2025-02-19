@@ -5,10 +5,10 @@
 # First Flight (Solution)
 
 ## Step 1
-The below code is the correct solution to the activity. Run the code by pressing the green play button to see it in action.
+الكود الموجود أدناه يمثل الحل الصحيح للنشاط. يمكنك تشغيله من خلال الضغط على زر التشغيل الأخضر لمشاهدة كيفية عمله.
 
-#### ~ tutorialhint 
-Use ``||agent.agent move||`` to send your Agent to the hole. Fill each hole using ``||agent.agent place||`` to PLACE the `Dirt` block we've given the Agent. Repeat ``||agent.agent move||`` and ``||agent.agent place||`` until all the holes are filled.
+#### ~ tutorialhint  
+استخدم ``||agent.agent move||`` لإرسال الروبوت إلى الحفرة. املأ كل حفرة باستخدام``||agent.agent place||`` إلى وضع الـ `Dirt`البلوك الذي قدمناه للروبوت. كرر. ``||agent.agent move||`` و ``||agent.agent place||`` حتى يتم ملء جميع الحفر.
 
 ```ghost
     agent.move(FORWARD, 0)

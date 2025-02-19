@@ -5,10 +5,10 @@
 # First Computer Scientist (Solution)
 
 ## Step 1
-The below code is the correct solution to the activity. Run the code by pressing the green play button to see it in action.
+الكود الموجود أدناه يمثل الحل الصحيح للنشاط. يمكنك تشغيله من خلال الضغط على زر التشغيل الأخضر لمشاهدة كيفية عمله.
 
-#### ~ tutorialhint 
-Use ``||agent.agent move||`` and ``||agent.agent turn||`` to move your Agent to each BROWN block. Then use ``||agent.agent destroy||`` in the direction you want the block destroyed to remove the BROWN block. Repeat this until all the BROWN blocks are destroyed.
+#### ~ tutorialhint  
+استخدم ``||agent.agent move||`` و ``||agent.agent turn||`` قم بتحريك الروبوت نحو كل بلوك باللون البني. ثم استخدم ``||agent.agent destroy||`` في الاتجاه الذي ترغب في تدمير البلوك فيه، قم بإزالة البلوك باللون البني. كرر هذه العملية حتى يتم تدمير جميع البلوكات البنية.
 
 ```ghost
     agent.move(FORWARD, 0)

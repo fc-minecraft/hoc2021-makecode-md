@@ -5,10 +5,10 @@
 # Elements of Discovery (Debug)
 
 ## Step 1
-There's something wrong with the below code. Press the green play button to run it to see what happens, and then debug it to see what's wrong and what changes are needed to make it work.
+هناك خطأ في الكود أدناه. اضغط على زر التشغيل الأخضر لتشغيله ومعرفة ما يحدث، ثم قم بتصحيح الأخطاء لتكتشف ما هو الخطأ وما التعديلات اللازمة لجعله يعمل بشكل صحيح.
 
-#### ~ tutorialhint 
-Use ``||agent.agent move||`` and ``||agent.agent turn||`` to move your Agent to the green glowing bookcases. Use ``||agent.agent destroy||`` in the direction you want to destroy the green glowing bookcases block. Repeat this until the 3 bookcase blocks are destroyed.
+#### ~ tutorialhint  
+استخدم ``||agent.agent move||`` و ``||agent.agent turn||`` قم بتحريك الروبوت نحو الرفوف المتوهجة باللون الأخضر. استخدم ``||agent.agent destroy||`` في الاتجاه الذي ترغب في تدمير خزائن الكتب المتوهجة باللون الأخضر، كرر هذه العملية حتى يتم تدمير ثلاث خزائن كتب.
 
 ```ghost
     agent.move(FORWARD, 0)

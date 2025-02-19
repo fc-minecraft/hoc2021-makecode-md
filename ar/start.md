@@ -5,10 +5,10 @@
 # Test Area
 
 ## Step 1
-Welcome to your first coding task. Let's test your Time Agent to see how it follows your code. Use blocks from the TOOLBOX to move your Agent FORWARD.
+مرحبا بك في مهمتك البرمجية الأولى. دعنا نختبر روبوت الزمن لنرى كيف يتبع كودك. استخدم البلوكات من صندوق الأدوات لتحريك الروبوت للأمام.
 
-#### ~ tutorialhint 
-Drag ``||agent.agent move||`` into ``||blocks.on start||`` block and change the number from 1 to 3. To play your code, press the GREEN PLAY BUTTON.
+#### ~ tutorialhint  
+قم بسحب ``||agent.agent move||`` إلى ``||blocks.on start||`` غير الرقم من 1 إلى 3. لتشغيل الكود، اضغط على زر التشغيل الأخضر.
 
 ```ghost
     agent.move(FORWARD, 0)

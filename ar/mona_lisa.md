@@ -7,8 +7,8 @@
 ## Step 1
 The Mona Lisa lost her famous smile. You will need to place the `White Glazed Terracotta` blocks we've given the Agent to form a square outline which is 6 blocks in length by 6 blocks in width.
 
-#### ~ tutorialhint 
-Use the ``||agent.agent move||`` to move your Agent and then ``||agent.agent place||`` to PLACE the `White Glazed Terracotta` we've given the Agent. Repeat ``||agent.agent move||`` and ``||agent.agent place||`` until the right number of blocks are placed.
+#### ~ tutorialhint  
+استخدم ``||agent.agent move||`` لتحريك الروبوت، ثم استخدم ``||agent.agent place||`` لوضع الـ `White Glazed Terracotta` الذي قدمناه للروبوت. كرر استخدام ``||agent.agent move||`` و ``||agent.agent place||`` حتى يتم وضع العدد المطلوب من البلوكات
 
 ```ghost
     agent.move(FORWARD, 0)

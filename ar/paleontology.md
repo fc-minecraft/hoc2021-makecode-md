@@ -5,9 +5,9 @@
 # Paleontology Puzzle
 
 ## Step 1
-Someone has removed bones from the dinosaur skeleton and replaced them. Code your Agent to DESTROY the 4 orange blocks and PLACE the `Bone Block` we've given it.
-#### ~ tutorialhint 
-Use the ``||agent.agent move||`` to move your Agent and then ``||agent.agent destroy||`` in the direction you want the block orange blocks DESTROYED and ``||agent.agent place||`` to PLACE a `Bone Block` we've given the Agent. Repeat this until the right number of blocks are placed.
+تمت إزالة بعض العظام من هيكل الديناصور واستبدالها. قم ببرمجة الروبوت لتدمير البلوكات الأربعة البرتقالية ووضع `Bone Block` التي قدمناها له.
+#### ~ tutorialhint  
+استخدم ``||agent.agent move||`` لتحريك الروبوت، ثم استخدم  ``||agent.agent destroy||`` في الاتجاه الذي ترغب في تدمير البلوكات البرتقالية فيه، ثم استخدم  ``||agent.agent place||`` لوضع`Bone Block` التي قدمناها للروبوت. كرر هذه العملية حتى يتم وضع العدد المطلوب من البلوكات.
 
 ```ghost
     agent.move(FORWARD, 0)

@@ -5,10 +5,10 @@
 # Mission Moon
 
 ## Step 1
-Send your agent to the space module to deliver the calculations. Use the Mathematician's calculations to determine how many moves the agent must make. Forward 25, right 17, and down 3.
+أرسل الروبوت إلى وحدة الفضاء لتسليم الحسابات. استخدم حسابات الرياضي لتحديد عدد الحركات التي يجب على الروبوت القيام بها: 25 خطوة للأمام، 17 خطوة لليمين، و3 خطوات للأسفل.
 
-#### ~ tutorialhint 
-Use the ``||agent.agent move||`` and ``||agent.agent turn||`` blocks within the ``||blocks.on start||`` block to deliver the calculations to the space module. Use the Mathematician’s calculations to help you determine the path the Agent should take.
+#### ~ tutorialhint  
+استخدم ``||agent.agent move||`` و ``||agent.agent turn||``  داخل البلوك ``||blocks.on start||`` لتقديم الحسابات إلى وحدة الفضاء. استخدم حسابات الرياضي لمساعدتك في تحديد المسار الذي يجب أن يسلكه الروبوت.
 
 ```ghost
     agent.move(FORWARD, 0)

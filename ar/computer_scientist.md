@@ -5,9 +5,9 @@
 # First Computer Scientist
 
 ## Step 1
-Someone filled in the computer scientist's punch cards that contain the instructions for the first algorithm. Code your Agent to DESTROY the BROWN blocks to make the cards work.
-#### ~ tutorialhint 
-Use ``||agent.agent move||`` and ``||agent.agent turn||`` to move your Agent to each BROWN block. Then use ``||agent.agent destroy||`` in the direction you want the block destroyed to remove the BROWN block. Repeat this until all the BROWN blocks are destroyed.
+شخص ما قام بملء الطاقات الخاصة بعالمة الحاسوب التي تحتوي على التعليمات لأول خوارزمية بالثقوب . قم ببرمجة الروبوت لتدمير البلوكات البنية لتفعيل البطاقات.
+#### ~ tutorialhint  
+استخدم ``||agent.agent move||`` و ``||agent.agent turn||`` لتحريك الروبوت نحو البلوك باللون البني. ثم استخدم ``||agent.agent destroy||`` في الاتجاه الذي تريد تدمير البلوك البني فيه. كرر هذه العملية حتى يتم تدمير جميع البلوكات البنية.
 
 ```ghost
     agent.move(FORWARD, 0)

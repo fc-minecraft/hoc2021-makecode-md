@@ -24,5 +24,4 @@ for (let index = 0; index < 4; index++) {
     agent.place(DOWN)
 }
 ```
-```package
-```
+ 

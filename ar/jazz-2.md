@@ -25,5 +25,4 @@ agent.move(UP, 2)
 agent.move(FORWARD, 1)
 agent.collectAll()
 ```
-```package
-```
+ 

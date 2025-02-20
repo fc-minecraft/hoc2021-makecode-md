@@ -23,5 +23,4 @@ for (let index = 0; index < 3; index++) {
     agent.move(BACK, 1)
 }
 ```
-```package
-```
+ 

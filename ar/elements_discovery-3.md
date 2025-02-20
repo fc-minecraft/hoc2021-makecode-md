@@ -23,5 +23,4 @@ agent.move(UP, 1)
 agent.move(FORWARD, 4)
 agent.destroy(LEFT)
 ```
-```package
-```
+ 

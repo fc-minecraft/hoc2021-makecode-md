@@ -21,5 +21,4 @@ agent.move(FORWARD, 17)
 agent.turn(RIGHT_TURN)
 agent.move(DOWN, 3)
 ```
-```package
-```
+ 

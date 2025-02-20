@@ -31,5 +31,4 @@ agent.move(FORWARD, 1)
 agent.move(FORWARD, 1)
 agent.place(BACK)
 ```
-```package
-```
+ 

@@ -34,5 +34,4 @@ agent.destroy(UP)
 agent.move(FORWARD, 2)
 agent.destroy(UP)
 ```
-```package
-```
+ 

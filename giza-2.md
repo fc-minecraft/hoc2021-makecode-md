@@ -2,13 +2,14 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# Great Pyramid at Giza (Debug)
+# Великая пирамида в Гизе (Отладка)
 
 ## Step 1
-There's something wrong with the below code. Press the green play button to run it to see what happens, and then debug it to see what's wrong and what changes are needed to make it work.
+В приведённом ниже коде есть ошибка. Нажми зелёную кнопку воспроизведения, чтобы запустить его и посмотреть, что произойдёт, а затем отладь его, чтобы увидеть, что не так, и какие изменения нужны, чтобы он заработал.
 
-#### ~ tutorialhint 
-Think about how the Agent needs to move to place the right number of blocks for each level of the pyramid. Use the ``||agent.agent move||`` block to move your agent forward and for each step use ``||agent.agent place||`` to PLACE the `Smooth Sandstone` we've given the Agent.
+#### ~ tutorialhint
+Подумай, как Агенту нужно двигаться, чтобы разместить правильное количество блоков для каждого уровня пирамиды. Используй блок перемещения агента, чтобы переместить своего Агента вперёд, и для каждого шага используй размещение, чтобы РАЗМЕСТИТЬ `Гладкий песчаник`, который мы дали Агенту.
+
 
 ```ghost
     agent.move(FORWARD, 0)

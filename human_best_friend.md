@@ -2,12 +2,14 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# Human's Best Friends
+# Лучшие друзья человека
 
 ## Step 1
-Dogs have been friends with people for thousands of years. But, something has scared the dogs away. Code your Agent to DROP the `Beetroot` items we've given it 5 blocks apart to help the people tame the wolves into dogs.
-#### ~ tutorialhint 
-Move your Agent to the right place using ``||agent.agent move||`` and ``||agent.agent turn||``. At the right point use ``||agent.agent drop||`` to DROP a `Beetroot` we've given the Agent. Repeat this until the right number of `Beetroot` are placed 5 blocks apart.
+Собаки были друзьями людей на протяжении тысяч лет. Но что-то напугало собак, и они убежали. Запрограммируй своего Агента, чтобы ОПУСТИТЬ предметы `Свеклы`, которые мы ему дали, на расстоянии 5 блоков друг от друга, чтобы помочь людям приручить волков в собак.
+
+#### ~ tutorialhint
+Перемести своего Агента в нужное место, используя перемещение агента и поворот агента. В нужной точке используй сброс, чтобы ОПУСТИТЬ `Свеклу`, которую мы дали Агенту. Повторяй это, пока правильное количество `Свеклы` не будет размещено на расстоянии 5 блоков друг от друга.
+
 
 ```ghost
     agent.move(FORWARD, 0)

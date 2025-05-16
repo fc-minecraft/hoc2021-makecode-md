@@ -2,13 +2,13 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# First Computer Scientist (Debug)
+# Первый компьютерный учёный (Отладка)
 
 ## Step 1
-There's something wrong with the below code. Press the green play button to run it to see what happens, and then debug it to see what's wrong and what changes are needed to make it work.
+В приведённом ниже коде есть ошибка. Нажми зелёную кнопку воспроизведения, чтобы запустить его и посмотреть, что произойдёт, а затем отладь его, чтобы увидеть, что не так, и какие изменения нужны, чтобы он заработал.
 
-#### ~ tutorialhint 
-Use ``||agent.agent move||`` and ``||agent.agent turn||`` to move your Agent to each BROWN block. Then use ``||agent.agent destroy||`` in the direction you want the block destroyed to remove the BROWN block. Repeat this until all the BROWN blocks are destroyed.
+#### ~ tutorialhint
+Используй перемещение агента и поворот агента, чтобы переместить своего Агента к каждому КОРИЧНЕВОМУ блоку. Затем используй разрушение в направлении, в котором ты хочешь разрушить блок, чтобы убрать КОРИЧНЕВЫЙ блок. Повторяй это, пока все КОРИЧНЕВЫЕ блоки не будут разрушены.
 
 ```ghost
     agent.move(FORWARD, 0)

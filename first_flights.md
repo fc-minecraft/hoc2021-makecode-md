@@ -2,13 +2,14 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# First Flight
+# Первый полёт
 
 ## Step 1
-One of the first planes is about to take off, but there are holes in the runway! Code your Agent to fill the holes with `Dirt` blocks we've given it. 
+Один из первых самолётов вот-вот взлетит, но на взлётной полосе есть ямы! Запрограммируй своего Агента, чтобы заполнить ямы блоками `Земли`, которые мы ему дали.
 
-#### ~ tutorialhint 
-Use ``||agent.agent move||`` to send your Agent to the hole. Fill each hole using ``||agent.agent place||`` to PLACE the `Dirt` block we've given the Agent. Repeat ``||agent.agent move||`` and ``||agent.agent place||`` until all the holes are filled.
+#### ~ tutorialhint
+Используй перемещение агента, чтобы отправить своего Агента к яме. Заполни каждую яму, используя размещение, чтобы РАЗМЕСТИТЬ блок `Земли`, который мы дали Агенту. Повторяй перемещение агента и размещение, пока все ямы не будут заполнены.
+
 
 ```ghost
     agent.move(FORWARD, 0)

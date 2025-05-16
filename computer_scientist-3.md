@@ -2,13 +2,13 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# First Computer Scientist (Solution)
+# Первый компьютерный учёный (Решение)
 
 ## Step 1
-The below code is the correct solution to the activity. Run the code by pressing the green play button to see it in action.
+Приведённый ниже код является правильным решением задания. Запусти код, нажав зелёную кнопку воспроизведения, чтобы увидеть его в действии.
 
-#### ~ tutorialhint 
-Use ``||agent.agent move||`` and ``||agent.agent turn||`` to move your Agent to each BROWN block. Then use ``||agent.agent destroy||`` in the direction you want the block destroyed to remove the BROWN block. Repeat this until all the BROWN blocks are destroyed.
+#### ~ tutorialhint
+Используй перемещение агента и поворот агента, чтобы переместить своего Агента к каждому КОРИЧНЕВОМУ блоку. Затем используй разрушение в направлении, в котором ты хочешь разрушить блок, чтобы убрать КОРИЧНЕВЫЙ блок. Повторяй это, пока все КОРИЧНЕВЫЕ блоки не будут разрушены.
 
 ```ghost
     agent.move(FORWARD, 0)

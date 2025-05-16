@@ -2,13 +2,13 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# First Flight (Debug)
+# Первый полёт (Отладка)
 
 ## Step 1
-There's something wrong with the below code. Press the green play button to run it to see what happens, and then debug it to see what's wrong and what changes are needed to make it work.
+В приведённом ниже коде есть ошибка. Нажми зелёную кнопку воспроизведения, чтобы запустить его и посмотреть, что произойдёт, а затем отладь его, чтобы увидеть, что не так, и какие изменения нужны, чтобы он заработал.
 
-#### ~ tutorialhint 
-Use ``||agent.agent move||`` to send your Agent to the hole. Fill each hole using ``||agent.agent place||`` to PLACE the `Dirt` block we've given the Agent. Repeat ``||agent.agent move||`` and ``||agent.agent place||`` until all the holes are filled.
+#### ~ tutorialhint
+Используй перемещение агента, чтобы отправить своего Агента к яме. Заполни каждую яму, используя размещение, чтобы РАЗМЕСТИТЬ блок `Земли`, который мы дали Агенту. Повторяй перемещение агента и размещение, пока все ямы не будут заполнены.
 
 ```ghost
     agent.move(FORWARD, 0)

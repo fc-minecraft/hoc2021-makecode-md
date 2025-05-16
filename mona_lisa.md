@@ -2,13 +2,14 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# The Mona Lisa
+# Мона Лиза
 
 ## Step 1
-The Mona Lisa lost her famous smile. You will need to place the `White Glazed Terracotta` blocks we've given the Agent to form a square outline which is 6 blocks in length by 6 blocks in width.
+Мона Лиза потеряла свою знаменитую улыбку. Тебе нужно разместить блоки `Белой глазурованной терракоты`, которые мы дали Агенту, чтобы сформировать квадратный контур размером 6 блоков в длину и 6 блоков в ширину.
 
-#### ~ tutorialhint 
-Use the ``||agent.agent move||`` to move your Agent and then ``||agent.agent place||`` to PLACE the `White Glazed Terracotta` we've given the Agent. Repeat ``||agent.agent move||`` and ``||agent.agent place||`` until the right number of blocks are placed.
+#### ~ tutorialhint
+Используй перемещение агента, чтобы переместить своего Агента, а затем размещение, чтобы РАЗМЕСТИТЬ `Белую глазурованную терракоту`, которую мы дали Агенту. Повторяй перемещение агента и размещение, пока не будет размещено правильное количество блоков.
+
 
 ```ghost
     agent.move(FORWARD, 0)

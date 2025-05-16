@@ -2,12 +2,13 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# Paleontology Puzzle
+# Палеонтологическая головоломка
 
 ## Step 1
-Someone has removed bones from the dinosaur skeleton and replaced them. Code your Agent to DESTROY the 4 orange blocks and PLACE the `Bone Block` we've given it.
-#### ~ tutorialhint 
-Use the ``||agent.agent move||`` to move your Agent and then ``||agent.agent destroy||`` in the direction you want the block orange blocks DESTROYED and ``||agent.agent place||`` to PLACE a `Bone Block` we've given the Agent. Repeat this until the right number of blocks are placed.
+Кто-то удалил кости из скелета динозавра и заменил их. Запрограммируй своего Агента, чтобы РАЗРУШИТЬ 4 оранжевых блока и РАЗМЕСТИТЬ блок `Кости`, который мы ему дали.
+
+#### ~ tutorialhint
+Используй перемещение агента, чтобы переместить своего Агента, затем разрушение в направлении, в котором ты хочешь РАЗРУШИТЬ оранжевые блоки, и размещение, чтобы РАЗМЕСТИТЬ блок `Кости`, который мы дали Агенту. Повторяй это, пока не будет размещено правильное количество блоков.
 
 ```ghost
     agent.move(FORWARD, 0)

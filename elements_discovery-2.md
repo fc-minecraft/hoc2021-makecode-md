@@ -2,13 +2,13 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# Elements of Discovery (Debug)
+# Элементы открытия (Отладка)
 
 ## Step 1
-There's something wrong with the below code. Press the green play button to run it to see what happens, and then debug it to see what's wrong and what changes are needed to make it work.
+В приведённом ниже коде есть ошибка. Нажми зелёную кнопку воспроизведения, чтобы запустить его и посмотреть, что произойдёт, а затем отладь его, чтобы увидеть, что не так, и какие изменения нужны, чтобы он заработал.
 
-#### ~ tutorialhint 
-Use ``||agent.agent move||`` and ``||agent.agent turn||`` to move your Agent to the green glowing bookcases. Use ``||agent.agent destroy||`` in the direction you want to destroy the green glowing bookcases block. Repeat this until the 3 bookcase blocks are destroyed.
+#### ~ tutorialhint
+Используй перемещение агента и поворот агента, чтобы переместить своего Агента к зелёным светящимся книжным шкафам. Используй разрушение в направлении, в котором ты хочешь разрушить блок зелёного светящегося книжного шкафа. Повторяй это, пока 3 блока книжных шкафов не будут разрушены.
 
 ```ghost
     agent.move(FORWARD, 0)

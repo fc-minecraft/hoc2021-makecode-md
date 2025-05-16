@@ -2,13 +2,14 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# Mission Moon
+# Миссия Луна
 
 ## Step 1
-Send your agent to the space module to deliver the calculations. Use the Mathematician's calculations to determine how many moves the agent must make. Forward 25, right 17, and down 3.
+Отправь своего Агента к космическому модулю, чтобы доставить расчёты. Используй расчёты Математика, чтобы определить, сколько перемещений должен сделать Агент. Вперёд 25, вправо 17 и вниз 3.
 
-#### ~ tutorialhint 
-Use the ``||agent.agent move||`` and ``||agent.agent turn||`` blocks within the ``||blocks.on start||`` block to deliver the calculations to the space module. Use the Mathematician’s calculations to help you determine the path the Agent should take.
+#### ~ tutorialhint
+Используй блоки перемещения агента и поворота агента внутри блока при старте, чтобы доставить расчёты к космическому модулю. Используй расчёты Математика, чтобы помочь определить путь, по которому должен следовать Агент.
+
 
 ```ghost
     agent.move(FORWARD, 0)

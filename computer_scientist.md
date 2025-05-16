@@ -2,12 +2,13 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# First Computer Scientist
+# Первый компьютерный учёный
 
 ## Step 1
-Someone filled in the computer scientist's punch cards that contain the instructions for the first algorithm. Code your Agent to DESTROY the BROWN blocks to make the cards work.
-#### ~ tutorialhint 
-Use ``||agent.agent move||`` and ``||agent.agent turn||`` to move your Agent to each BROWN block. Then use ``||agent.agent destroy||`` in the direction you want the block destroyed to remove the BROWN block. Repeat this until all the BROWN blocks are destroyed.
+Кто-то заполнил перфокарты компьютерного учёного, которые содержат инструкции для первого алгоритма. Запрограммируй своего Агента, чтобы РАЗРУШИТЬ КОРИЧНЕВЫЕ блоки и сделать так, чтобы карты заработали.
+
+#### ~ tutorialhint
+Используй перемещение агента и поворот агента, чтобы переместить своего Агента к каждому КОРИЧНЕВОМУ блоку. Затем используй разрушение в направлении, в котором ты хочешь разрушить блок, чтобы убрать КОРИЧНЕВЫЙ блок. Повторяй это, пока все КОРИЧНЕВЫЕ блоки не будут разрушены.
 
 ```ghost
     agent.move(FORWARD, 0)

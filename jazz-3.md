@@ -2,14 +2,14 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# Big Band Jazz (Solution)
+# Биг-бэнд джаз (Решение)
 
 ## Step 1
-The below code is the correct solution to the activity. Run the code by pressing the green play button to see it in action.
+Приведённый ниже код является правильным решением задания. Запусти код, нажав зелёную кнопку воспроизведения, чтобы увидеть его в действии.
 
-#### ~ tutorialhint 
-Drag ``||agent.agent move||`` into ``||blocks.on start||`` to give instructions to your agent on how to move. Count how far and in what 
-direction the agent needs to move and use the agent move block direction (UP, DOWN, LEFT, RIGHT) and distance to move to the trumpet. At the end of your code use ``||agent.agent collect all||`` to collect the trumpet.
+#### ~ tutorialhint
+Перетащи перемещение агента в блок при старте, чтобы дать инструкции своему Агенту, как двигаться. Посчитай, как далеко и в каком направлении Агенту нужно двигаться, и используй блок перемещения агента с направлением (ВВЕРХ, ВНИЗ, ВЛЕВО, ВПРАВО) и расстоянием, чтобы переместиться к трубе. В конце своего кода используй сбор всех, чтобы собрать трубу.
+
 ```ghost
     agent.move(FORWARD, 0)
     agent.collectAll()

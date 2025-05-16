@@ -2,13 +2,14 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# The Great Wall of China (Debug)
+# Великая Китайская стена (Отладка)
 
 ## Step 1
-There's something wrong with the below code. Press the green play button to run it to see what happens, and then debug it to see what's wrong and what changes are needed to make it work.
+В приведённом ниже коде есть ошибка. Нажми зелёную кнопку воспроизведения, чтобы запустить его и посмотреть, что произойдёт, а затем отладь его, чтобы увидеть, что не так, и какие изменения нужны, чтобы он заработал.
 
-#### ~ tutorialhint 
-Use the ``||agent.agent move||`` block to position your Agent and ``||agent.agent place||`` to PLACE the `Bamboo` we've given the Agent.
+#### ~ tutorialhint
+Используй блок перемещения агента, чтобы расположить своего Агента, и размещение, чтобы РАЗМЕСТИТЬ `Бамбук`, который мы дали Агенту.
+
 
 ```ghost
     agent.place(FORWARD)

@@ -2,13 +2,14 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# The Great Wall of China (Solution)
+# Великая Китайская стена (Решение)
 
 ## Step 1
-The below code is the correct solution to the activity. Run the code by pressing the green play button to see it in action.
+Приведённый ниже код является правильным решением задания. Запусти код, нажав зелёную кнопку воспроизведения, чтобы увидеть его в действии.
 
-#### ~ tutorialhint 
-Use the ``||agent.agent move||`` block to position your Agent and ``||agent.agent place||`` to PLACE the `Bamboo` we've given the Agent.
+#### ~ tutorialhint
+Используй блок перемещения агента, чтобы расположить своего Агента, и размещение, чтобы РАЗМЕСТИТЬ `Бамбук`, который мы дали Агенту.
+
 
 ```ghost
     agent.place(FORWARD)

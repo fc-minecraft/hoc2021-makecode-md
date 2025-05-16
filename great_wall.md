@@ -2,13 +2,13 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# The Great Wall of China
+# Великая Китайская стена
 
 ## Step 1
-The Pandas keep eating the bamboo scaffolding, stopping the Engineer from completing the wall. Lead the pandas away from the wall. Code your Agent to PLACE 5 `Bamboo` pieces we've given the Agent.
+Панды продолжают есть бамбуковые леса, мешая Инженеру завершить строительство стены. Отведи панд подальше от стены. Запрограммируй своего Агента, чтобы РАЗМЕСТИТЬ 5 кусков `Бамбука`, которые мы дали Агенту.
 
-#### ~ tutorialhint 
-Use the ``||agent.agent move||`` block to position your Agent and ``||agent.agent place||`` to PLACE the `Bamboo` we've given the Agent.
+#### ~ tutorialhint
+Используй блок перемещения агента, чтобы расположить своего Агента, и размещение, чтобы РАЗМЕСТИТЬ `Бамбук`, который мы дали Агенту.
 
 ```ghost
     agent.place(FORWARD)

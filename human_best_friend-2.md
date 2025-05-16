@@ -2,12 +2,13 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# Human's Best Friends (Debug)
+# Лучшие друзья человека (Отладка)
 
 ## Step 1
-There's something wrong with the below code. Press the green play button to run it to see what happens, and then debug it to see what's wrong and what changes are needed to make it work.
-#### ~ tutorialhint 
-Move your Agent to the right place using ``||agent.agent move||`` and ``||agent.agent turn||``. At the right point use ``||agent.agent drop||`` to DROP a `Beetroot` we've given the Agent. Repeat this until the right number of `Beetroot` are placed 5 blocks apart.
+В приведённом ниже коде есть ошибка. Нажми зелёную кнопку воспроизведения, чтобы запустить его и посмотреть, что произойдёт, а затем отладь его, чтобы увидеть, что не так, и какие изменения нужны, чтобы он заработал.
+
+#### ~ tutorialhint
+Перемести своего Агента в нужное место, используя перемещение агента и поворот агента. В нужной точке используй сброс, чтобы ОПУСТИТЬ `Свеклу`, которую мы дали Агенту. Повторяй это, пока правильное количество `Свеклы` не будет размещено на расстоянии 5 блоков друг от друга.
 
 ```ghost
     agent.move(FORWARD, 0)

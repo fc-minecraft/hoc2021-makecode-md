@@ -2,13 +2,14 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# Elements of Discovery
+# Элементы открытия
 
 ## Step 1
-When the chemist left the room, someone hid her research inside the bookcase. Code your Agent to DESTROY the green glowing bookcase, so that she can share her discoveries. 
+Когда химик вышла из комнаты, кто-то спрятал её исследования внутри книжного шкафа. Запрограммируй своего Агента, чтобы РАЗРУШИТЬ зелёный светящийся книжный шкаф, чтобы она могла поделиться своими открытиями.
 
-#### ~ tutorialhint 
-Use ``||agent.agent move||`` and ``||agent.agent turn||`` to move your Agent to the green glowing bookcases. Use ``||agent.agent destroy||`` in the direction you want to destroy the green glowing bookcases block.
+#### ~ tutorialhint
+Используй перемещение агента и поворот агента, чтобы переместить своего Агента к зелёным светящимся книжным шкафам. Используй разрушение в направлении, в котором ты хочешь разрушить блок зелёного светящегося книжного шкафа.
+
 
 ```ghost
     agent.move(FORWARD, 0)

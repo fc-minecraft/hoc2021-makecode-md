@@ -2,13 +2,14 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# Great Pyramid at Giza
+# Великая пирамида в Гизе
 
 ## Step 1
-Help the Architect finish the triangle, a design that will stand the test of time. Think how to create a triangle. There are 2 more levels needed: 3 blocks on the bottom, and 1 block on the top.
+Помоги Архитектору завершить треугольник, дизайн, который выдержит испытание временем. Подумай, как создать треугольник. Нужно добавить ещё 2 уровня: 3 блока внизу и 1 блок сверху.
 
-#### ~ tutorialhint 
-Think about how the Agent needs to move to place the right number of blocks for each level of the pyramid. Use the ``||agent.agent move||`` block to move your agent forward and for each step use ``||agent.agent place||`` to PLACE the `Smooth Sandstone` we've given the Agent.
+#### ~ tutorialhint
+Подумай, как Агенту нужно двигаться, чтобы разместить правильное количество блоков для каждого уровня пирамиды. Используй блок перемещения агента, чтобы переместить своего Агента вперёд, и для каждого шага используй размещение, чтобы РАЗМЕСТИТЬ `Гладкий песчаник`, который мы дали Агенту.
+
 
 ```ghost
     agent.move(FORWARD, 0)

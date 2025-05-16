@@ -2,13 +2,13 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# Test Area
+# Тестовая зона
 
 ## Step 1
-Welcome to your first coding task. Let's test your Time Agent to see how it follows your code. Use blocks from the TOOLBOX to move your Agent FORWARD.
+Добро пожаловать на первое задание. Давай протестируем твоего Временного Агента, чтобы увидеть, как он следует твоему коду. Используй блоки из панели инструментов, чтобы переместить твоего Агента ВПЕРЁД.
 
-#### ~ tutorialhint 
-Drag ``||agent.agent move||`` into ``||blocks.on start||`` block and change the number from 1 to 3. To play your code, press the GREEN PLAY BUTTON.
+#### ~ tutorialhint
+Перетащи блок перемещения агента в блок при старте и измени число с 1 на 3. Чтобы запустить твой код, нажми ЗЕЛЁНУЮ КНОПКУ.
 
 ```ghost
     agent.move(FORWARD, 0)

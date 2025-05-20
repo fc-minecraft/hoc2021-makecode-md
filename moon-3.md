@@ -2,13 +2,13 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# Mission Moon (Solution)
+# Миссия Луна (Решение)
 
-## Step 1
-The below code is the correct solution to the activity. Run the code by pressing the green play button to see it in action.
+## Шаг 1
+Ниже приведён правильный код для решения задачи. Запусти код, нажав зелёную кнопку воспроизведения, чтобы увидеть его в действии.
 
-#### ~ tutorialhint 
-Use the ``||agent.agent move||`` and ``||agent.agent turn||`` blocks within the ``||blocks.on start||`` block to deliver the calculations to the space module. Use the Mathematician's calculations to help you determine the path the Agent should take. Forward 25, right 17, and down 3.
+#### ~ tutorialhint
+Используй блоки перемещения агента и поворота агента внутри блока при старте, чтобы доставить расчёты к космическому модулю. Используй расчёты математика, чтобы определить путь, по которому должен следовать агент. Вперёд 25, вправо 17 и вниз 3.
 
 ```ghost
     agent.move(FORWARD, 0)

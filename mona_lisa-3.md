@@ -2,13 +2,14 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# The Mona Lisa (Solution)
+# Мона Лиза (Решение)
 
-## Step 1
-The below code is the correct solution to the activity. Run the code by pressing the green play button to see it in action.
+## Шаг 1
+Ниже приведён правильный код для решения задачи. Запусти код, нажав зелёную кнопку воспроизведения, чтобы увидеть его в действии.
 
-#### ~ tutorialhint 
-Use the ``||agent.agent move||`` to move your Agent and then ``||agent.agent place||`` to PLACE the `White Glazed Terracotta` we've given the Agent. Repeat ``||agent.agent move||`` and ``||agent.agent place||`` until the right number of blocks are placed.
+#### ~ tutorialhint
+Используй перемещение агента, чтобы переместить своего агента, затем размещение, чтобы разместить белый глазурованный терракот, который мы дали агенту. Повторяй перемещение агента и размещение, пока не будет размещено правильное количество блоков.
+
 
 ```ghost
     agent.move(FORWARD, 0)

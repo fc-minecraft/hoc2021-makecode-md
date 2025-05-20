@@ -2,12 +2,13 @@
 ### @hideIteration true
 ### @explicitHints true
 
-# Paleontology Puzzle (Debug)
+# Палеонтологическая головоломка (Отладка)
 
-## Step 1
-There's something wrong with the below code. Press the green play button to run it to see what happens, and then debug it to see what's wrong and what changes are needed to make it work.
-#### ~ tutorialhint 
-Use the ``||agent.agent move||`` to move your Agent and then ``||agent.agent destroy||`` in the direction you want the block orange blocks DESTROYED and ``||agent.agent place||`` to PLACE a `Bone Block` we've given the Agent. Repeat this until the right number of blocks are placed.
+## Шаг 1
+В приведённом ниже коде есть ошибка. Нажми зелёную кнопку воспроизведения, чтобы запустить его и увидеть, что произойдёт, а затем отладь его, чтобы понять, что не так, и какие изменения нужны, чтобы он заработал.
+#### ~ tutorialhint
+Используй перемещение агента, чтобы переместить своего агента, затем разрушение в направлении, в котором ты хочешь разрушить оранжевые блоки, и размещение, чтобы разместить блок кости, который мы дали агенту. Повторяй это, пока не будет размещено правильное количество блоков.
+
 
 ```ghost
     agent.move(FORWARD, 0)
